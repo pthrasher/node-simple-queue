@@ -1,8 +1,8 @@
 {
-  "name": "simple-queue",
+  "name": "quick-queue",
   "description": "A simple linked-list based queue.",
   "version": "0.1.0",
-  "homepage": "https://github.com/pthrasher/simple-queue",
+  "homepage": "https://github.com/pthrasher/node-simple-queue",
   "author": {
     "name": "Philip Thrasher",
     "email": "philipthrasher@gmail.com",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/pthrasher/simple-queue.git"
+    "url": "git://github.com/pthrasher/node-simple-queue.git"
   },
   "bugs": {
-    "url": "https://github.com/pthrasher/simple-queue/issues"
+    "url": "https://github.com/pthrasher/node-simple-queue/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/pthrasher/simple-queue/blob/master/LICENSE-MIT"
+      "url": "https://github.com/pthrasher/node-simple-queue/blob/master/LICENSE-MIT"
     }
   ],
   "main": "index",
