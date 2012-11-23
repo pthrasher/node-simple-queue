@@ -43,7 +43,7 @@ module.exports = function(grunt) {
     });
 
     // Default task.
-    grunt.registerTask('test', 'coffee lint jasmine_node');
+    grunt.registerTask('test', 'jasmine_node');
     grunt.registerTask('default', 'coffee lint test');
 
 };
