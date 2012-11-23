@@ -10,16 +10,14 @@ module.exports = function(grunt) {
             files: ['index.js']
         },
         watch: {
-            files: 'index.coffee',
+            files: ['index.coffee', 'index.spec.coffee'],
             tasks: ['coffee', 'lint']
         },
         coffee: {
             compile: {
-                options: {
-                    bare: true
-                },
                 files: {
-                    'index.js': 'index.coffee'
+                    'index.js': 'index.coffee',
+                    'index.spec.js': 'index.spec.coffee'
                 }
             }
         },
@@ -45,7 +43,7 @@ module.exports = function(grunt) {
     });
 
     // Default task.
-    grunt.registerTask('test', 'jasmine_node');
+    grunt.registerTask('test', 'coffee lint jasmine_node');
     grunt.registerTask('default', 'coffee lint test');
 
 };

@@ -33,5 +33,8 @@
     "grunt-contrib": "~0.3.0",
     "grunt-jasmine-node": "0.0.4"
   },
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "node-uuid": "~1.4.0"
+  }
 }

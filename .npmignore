@@ -1,4 +1,5 @@
 /node_modules/
+index.coffee
 index.spec.coffee
 grunt.js
 README.md
