@@ -1,6 +1,4 @@
-'use strict'
-
-SimpleQueue = require 'index.js'
+SimpleQueue = require './'
 
 describe 'When the constructor is called.', ->
     sq = null
